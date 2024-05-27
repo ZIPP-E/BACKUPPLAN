@@ -1,0 +1,23 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+a, p,
+.green {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+  padding: 10px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: red;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
